@@ -112,7 +112,7 @@ int main()
     std::cout << "NOT lógico de log1: " << std::boolalpha << logNot << std::endl;
 
     // Operador ternario
-    int ternaryResult = (intVar > d) ? intVar : d; // Si a es mayor que d, asignar a a ternaryResult, de lo contrario asignar d
+    int ternaryResult = (intVar < d) ? intVar : d; // Si a es mayor que d, asignar a a ternaryResult, de lo contrario asignar d
     std::cout << "Resultado del operador ternario (a > d ? a : d): " << ternaryResult << std::endl;
 
 

@@ -86,97 +86,97 @@ int main()
     }
     cout << "The sum of the first " << num1 << " numbers is: " << sum << endl;
 
-    // // 4. do-while loop
-    // cout << "Counting up with do-while loop:" << endl;
-    // int z = 6;
-    // do
-    // {
-    //     cout << "z = " << z << endl;
-    //     z++;
-    // } while (z <= 5);
+    // 4. do-while loop
+    cout << "Counting up with do-while loop:" << endl;
+    int z = 0;
+    do
+    {
+        cout << "z = " << z << endl;
+        z++;
+    } while (z <= 5);
 
-    // // Calculate the sum of two numbers using a do-while loop
-    // char choice;
-    // choice = 'n';
-    // do
-    // {
-    //     // Ask user for input
-    //     cout << "Enter two numbers: ";
-    //     cin >> num1 >> num2;
+    // Calculate the sum of two numbers using a do-while loop
+    char choice;
+    choice = 'n';
+    do
+    {
+        // Ask user for input
+        cout << "Enter two numbers: ";
+        cin >> num1 >> num2;
 
-    //     // Calculate and display the sum
-    //     cout << "The sum is: " << num1 + num2 << endl;
+        // Calculate and display the sum
+        cout << "The sum is: " << num1 + num2 << endl;
 
-    //     // Ask user if they want to continue
-    //     cout << "Do you want to add more numbers (y/n)? ";
-    //     cin >> choice;
+        // Ask user if they want to continue
+        cout << "Do you want to add more numbers (y/n)? ";
+        cin >> choice;
 
-    // } while (choice == 'y' || choice == 'Y');
+    } while (choice == 'y' || choice == 'Y');
 
-    // // 5. switch statement
-    // cout << "Switch statement example:" << endl;
-    // int day = 1;
-    // switch (day)
-    // {
-    // case 1:
-    //     cout << "Monday" << endl;
-    //     break;
-    // case 2:
-    //     cout << "Tuesday" << endl;
-    //     break;
-    // case 3:
-    //     cout << "Wednesday" << endl;
-    //     break;
-    // case 4:
-    //     cout << "Thursday" << endl;
-    //     break;
-    // case 5:
-    //     cout << "Friday" << endl;
-    //     break;
-    // case 6:
-    //     cout << "Saturday" << endl;
-    //     break;
-    // case 7:
-    //     cout << "Sunday" << endl;
-    //     break;
-    // default:
-    //     cout << "Invalid day" << endl;
-    //     break;
-    // }
+    // 5. switch statement
+    cout << "Switch statement example:" << endl;
+    int day = 1;
+    switch (day)
+    {
+    case 1:
+        cout << "Monday" << endl;
+        break;
+    case 2:
+        cout << "Tuesday" << endl;
+        break;
+    case 3:
+        cout << "Wednesday" << endl;
+        break;
+    case 4:
+        cout << "Thursday" << endl;
+        break;
+    case 5:
+        cout << "Friday" << endl;
+        break;
+    case 6:
+        cout << "Saturday" << endl;
+        break;
+    case 7:
+        cout << "Sunday" << endl;
+        break;
+    default:
+        cout << "Invalid day" << endl;
+        break;
+    }
 
-    // // Ask user for input
-    // cout << "Enter two numbers: ";
-    // cin >> num1 >> num2;
+    // Ask user for input
+    cout << "Enter two numbers: ";
+    cin >> num1 >> num2;
 
-    // // Ask user to choose an operation
-    // cout << "Choose an operation (+, -, *, /): ";
-    // cin >> choice;
+    // Ask user to choose an operation
+    cout << "Choose an operation (+, -, *, /): ";
+    cin >> choice;
 
-    // // Perform operation using switch statement
-    // switch (choice)
-    // {
-    // case '+':
-    //     cout << "The result is: " << num1 + num2 << endl;
-    //     break;
-    // case '-':
-    //     cout << "The result is: " << num1 - num2 << endl;
-    //     break;
-    // case '*':
-    //     cout << "The result is: " << num1 * num2 << endl;
-    //     break;
-    // case '/':
-    //     if (num2 != 0)
-    //     {
-    //         cout << "The result is: " << num1 / num2 << endl;
-    //     }
-    //     else
-    //     {
-    //         cout << "Error: Division by zero." << endl;
-    //     }
-    //     break;
-    // default:
-    //     cout << "Invalid operation!" << endl;
-    // }
+    // Perform operation using switch statement
+    switch (choice)
+    {
+    case '+':
+        cout << "The result is: " << num1 + num2 << endl;
+        break;
+    case '-':
+        cout << "The result is: " << num1 - num2 << endl;
+        break;
+    case '*':
+        cout << "The result is: " << num1 * num2 << endl;
+        break;
+    case '/':
+        if (num2 != 0)
+        {
+            cout << "The result is: " << num1 / num2 << endl;
+        }
+        else
+        {
+            cout << "Error: Division by zero." << endl;
+        }
+        break;
+    default:
+        cout << "Invalid operation!" << endl;
+    }
 
     return 0;
 }
